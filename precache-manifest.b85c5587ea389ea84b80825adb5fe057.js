@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dee63efdde7228e112c24e5a607372e4",
+    "revision": "6a2f45d19d80fa033950f0b1f7c6cbc1",
     "url": "/Portfolio-Website/index.html"
   },
   {
-    "revision": "b8dd514d4376a4bb5d8a",
-    "url": "/Portfolio-Website/static/css/main.857483f8.chunk.css"
+    "revision": "308cb504e58e670079a9",
+    "url": "/Portfolio-Website/static/css/main.7c066cdc.chunk.css"
   },
   {
     "revision": "dcf2c52d6889aa0afcb4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website/static/js/2.86bf10b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8dd514d4376a4bb5d8a",
-    "url": "/Portfolio-Website/static/js/main.a9305619.chunk.js"
+    "revision": "308cb504e58e670079a9",
+    "url": "/Portfolio-Website/static/js/main.97d84151.chunk.js"
   },
   {
     "revision": "dde95ee7596232cc0630",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website/static/media/covid-19-thumb.81595068.png"
   },
   {
-    "revision": "8bd7fa6673ccd6c90e2fd93a83b7884f",
-    "url": "/Portfolio-Website/static/media/profile.8bd7fa66.jpeg"
+    "revision": "58f411486d623aab40eadbb133a1f010",
+    "url": "/Portfolio-Website/static/media/selfie-new.58f41148.jpg"
   }
 ]);
