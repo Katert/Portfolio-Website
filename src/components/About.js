@@ -26,7 +26,7 @@ class About extends Component {
             transition={{ delay: 0.8, duration: 1 }}
           >
             <img
-              src={require("../img/profile.jpeg")}
+              src={require("../img/selfie-new.jpg")}
               alt="selfie"
               style={{ borderRadius: 50 }}
             />
