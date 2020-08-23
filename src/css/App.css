@@ -1,0 +1,425 @@
+/* ---------------- General ---------------- */
+
+html {
+  background-color: whitesmoke;
+}
+
+a + a {
+  margin-left: 12.5em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------------- Header ---------------- */
+
+.header-container {
+  padding: 1em 0em 1em 1em;
+  width: 100vw;
+  min-width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 1;
+}
+
+.header-link {
+  color: black;
+  transition: 0.2s;
+}
+
+.header-link:hover {
+  color: rgb(238, 192, 40);
+}
+
+.highlight {
+  color: white;
+}
+
+/* ---------------- Home ---------------- */
+
+#home-container {
+  padding-top: 10%;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+#bg-container {
+  margin: 0 auto;
+  width: 70%;
+  height: 60%;
+  background-color: whitesmoke;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+}
+
+#bg-1 {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(132, 179, 182);
+  position: relative;
+  float: left;
+  border-radius: 10px 0px 0px 10px;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 19px 10px 10px -5px rgba(0, 0, 0, 0.21);
+}
+
+#bg-2 {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(236, 205, 67);
+  position: relative;
+  float: left;
+  border-radius: 0px 10px 10px 0px;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+}
+
+#greeting-container {
+  margin: 0 auto;
+}
+
+
+#greeting {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.813em;
+  padding-top: 15%;
+  padding-right: 15px;
+}
+
+#greeting-intro {
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+/* ---------------- About me ---------------- */
+
+#about-container {
+  width: 60vw;
+  margin: auto;
+  padding: 1.25em 0em 3.125em;
+}
+
+#about-title {
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+#about-section {
+  padding: 1.875em;
+  text-align: left;
+  background-color: rgb(132, 179, 182);
+  border-radius: 0.625em;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+}
+
+#about-name {
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-size: 2.813em;
+  text-align: center;
+}
+
+#about-me-intro {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+#selfie {
+  width: 15.5em;
+  padding: 1.125em 0 0.5em 0;
+  margin: auto;
+}
+
+/* ---------------- Skills ---------------- */
+
+#skills-container {
+  width: 60%;
+  padding: 1.25em 0em 3.125em;
+  margin: auto;
+}
+
+#skills-section {
+  padding: 1.875em;
+  margin: auto;
+  text-align: left;
+  background-color: rgb(240, 212, 90);
+  border-radius: 0.625em;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+}
+
+#skills-title {
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+/* ---------------- Work ---------------- */
+
+#work-title {
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.project-title {
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 0.6em;
+}
+
+.project-description {
+  text-align: center;
+  color: black;
+  padding: 0.8em;
+}
+
+.project-buttons-container {
+  text-align: center;
+  margin: 0.3em;
+}
+
+.project-button {
+  padding: 0.3em;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+
+.project-button:hover {
+  color: white;
+}
+
+#work-container {
+  width: 70%;
+  padding: 1.25em 0em 3.125em;
+  margin: auto;
+}
+
+#work-section {
+  padding: 1.875em;
+  margin: auto;
+  text-align: left;
+  background-color: rgb(132, 179, 182);
+  border-radius: 0.625em;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+}
+
+.project-thumbnail {
+  text-align: center;
+  display: block;
+}
+
+/* ---------------- Contact form ---------------- */
+
+#contact-container {
+  width: 40%;
+  margin: auto;
+  padding: 1.25em 0em 3.125em;
+}
+
+#contact-title {
+  font-size: 2.5em;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+#contact-section {
+  padding: 1.875em;
+  margin: auto;
+  text-align: left;
+  background-color: rgb(240, 212, 90);
+  border-radius: 0.625em;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+}
+
+#message-input {
+  height: 12.5em;
+}
+
+#contact-submit {
+  font-family: "Josefin Sans";
+}
+
+/* ---------------- Footer ---------------- */
+
+#footer-container {
+  width: 100%;
+  height: 2em;
+  position: fixed;
+  bottom: 0;
+  background-color: whitesmoke;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.563em;
+  z-index: -2;
+}
+
+#social-container {
+  padding: 0.313em 0.625em 0em 0.313em;
+  transition: 0.3s;
+  text-align: right;
+}
+
+.fa-linkedin {
+  transition: 0.2s;
+  color: black;
+}
+
+.fa-github-square,
+.fa-facebook-square {
+  margin-left: 0.5em;
+  transition: 0.2s;
+  color: black;
+
+}
+
+.fa-linkedin:hover,
+.fa-github-square:hover,
+.fa-facebook-square:hover {
+  color: rgb(238, 192, 40);
+}
+
+/* ---------------- Misc ---------------- */
+
+.spacer {
+  width: 100%;
+  height: 35vh;
+  color: whitesmoke;
+}
+
+#arrow-down-container {
+  display: inline-block;
+}
+
+#arrow-down {
+  width: 3.125em;
+}
+
+/* ---------------- Media query for mobile devices ---------------- */
+
+
+@media (max-width: 1057px) {
+  
+  .header-container {
+    background-color: whitesmoke;
+    padding-right: 1em;
+  }
+
+  .header-container a {
+    color: black;
+  }
+
+   a + a {
+    margin-left: 1.2em;
+  }
+
+  #home-container {
+    padding-top: 10%;
+    width: 90vw;
+    height: 50vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  #bg-container {
+    margin: 0 auto;
+    width: 90vw;
+    height: 50vw;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: -1;
+    display: flex;  
+  }
+
+  #home-container {
+    margin: 0 auto;
+    padding-top: 35%;
+  }
+
+  #greeting {
+    font-size: 1.5em;
+    padding: 8% 8% 3% 8%;
+    
+  }
+
+  #greeting-container {
+    padding-top: 0.5em;
+  }
+
+  #greeting-intro {
+    font-size: 1.1em;
+  }
+
+  #about-title {
+    font-size: 1.8em;
+  }
+
+  #about-container {
+    width: 90vw;
+  }
+
+  #selfie {
+    width: 10em;
+    padding: 0.5em 0 0.5em;
+  }
+
+  #skills-title {
+    font-size: 1.8em;
+  }
+
+  #skills-container {
+    width: 90vw;
+  }
+
+  #work-title {
+    font-size: 1.8em;
+  }
+
+  #work-container {
+    width: 90vw;
+  }
+
+  #contact-title {
+    font-size: 1.8em;
+  }
+
+  #contact-container {
+    width: 90vw;
+  }
+
+  #footer-container {
+    z-index: 1;
+  }
+  
+}
