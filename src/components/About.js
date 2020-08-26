@@ -40,27 +40,27 @@ class About extends Component {
           >
             <p>
               I'm a <span className="highlight"> junior full-stack web developer</span>{" "}
-              with a passion for designing and building user-friendly web applications and websites.
+              with a passion for designing and building user-friendly and responsive web applications and websites.
               <br /> In addition to programming as a hobby, I signed up for and
               graduated from the intensive on-site full-stack developer bootcamp
               organized by{" "}
               <span className="highlight">Code For All_The Netherlands</span>,
               the Dutch branch from the succesful Portuguese organization{" "}
               <span className="highlight">Academia de Codigo</span>.<br /> Not
-              only did I got to program and learn a lot of new things, but I
-              also focused on improving my softskills too.
+              only did I got to program and learn a lot of new techniques, but I
+              also focused on improving my softskills a lot too.
               <br /><br />
-              Although I have experience in full-stack development now, I thrive
-              in front-end programming.
+              I'm experienced in HTML, CSS and JavaScript and develop a lot with React.js whereas this portfolio website is also created with React.js. 
+              I also have experience in programming with Java and have basic knowledge of SQL and data modelling with MySQL Workbench. For a complete overview of my skill-levels, please take a look at the 'skills'-section.
               <br />I speak fluently <span className="highlight">Dutch</span>,
               and have excellent skills in both writing and speaking{" "}
               <span className="highlight">English</span>.
               <br />
-              If there's anything you would like to know, please use the contact
+              If there's anything else you would like to know or if you would like to reach out to me, please use the contact
               form by clicking on 'contact' in the navigation bar up top.
               <br /> <br />
               <span className="highlight">
-                At the moment, I'm available for any junior developer positions.
+              At the moment, I'm available for any junior full-stack or front-end developer position.
               </span>
             </p>
           </motion.div>

@@ -94,6 +94,10 @@ class Work extends Component {
             <div className="tile is-parent">
               <div className="tile is-child box"></div>
             </div>
+
+            <div className="tile is-parent">
+              <div className="tile is-child box"></div>
+            </div>
           </motion.div>
         </motion.div>
       </div>
