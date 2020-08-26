@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
-import { axios } from "axios";
+import Axios from "axios";
 
 class ContactForm extends Component {
   state = {
@@ -12,7 +12,8 @@ class ContactForm extends Component {
     company: "",
     message: "",
     sent: false,
-    buttonText: "Send message",
+    buttonText: "Submit",
+    buttonDisabled: false,
   };
 
   resetForm = () => {
@@ -25,13 +26,14 @@ class ContactForm extends Component {
       company: "",
       message: "",
       buttonText: "Message sent!",
+      buttonDisabled: true
     });
   };
 
   formSubmit = (e) => {
     e.preventDefault();
 
-    this.setState({ buttonText: "...Sending" });
+    this.setState({ buttonText: "...Sending message" });
 
     let formData = {
       fname: this.state.fname,
@@ -43,12 +45,21 @@ class ContactForm extends Component {
       message: this.state.message,
     };
 
-    axios
-      .post("API URI", formData)
+    Axios.post("https://portfolio-contactform-api.herokuapp.com/api/v1", formData)
       .then((res) => {
-        this.setState({ sent: true }, this.resetForm());
+        if (res.data.success) {
+          this.setState({ sent: true, buttonDisabled: true });
+        } else {
+          this.setState({ buttonDisabled: false });
+        }
       })
-      .catch(() => alert("Message not sent"));
+      .then(() => {
+        this.resetForm();
+      })
+      .catch(() => {
+        Error("Message could not be sent!");
+        this.setState({ buttonDisabled: false });
+      });
   };
 
   render() {
@@ -60,7 +71,7 @@ class ContactForm extends Component {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Say hi
+          Let's talk!
         </motion.h1>
         <motion.div
           id="contact-section"
@@ -72,6 +83,7 @@ class ContactForm extends Component {
             initial={{ x: 50, opacity: -1 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.8, duration: 1 }}
+            onSubmit={this.formSubmit}
           >
             <div className="field">
               <label className="label">First name *</label>
@@ -173,6 +185,7 @@ class ContactForm extends Component {
                 className="button is-black"
                 type="submit"
                 name="submit"
+                disabled={this.state.buttonDisabled}
               >
                 {this.state.buttonText}
               </button>

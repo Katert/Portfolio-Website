@@ -58,7 +58,7 @@ a {
 #bg-container {
   margin: 0 auto;
   width: 70%;
-  height: 60%;
+  height: 40%;
   background-color: whitesmoke;
   position: absolute;
   z-index: -1;
@@ -71,7 +71,7 @@ a {
   background-color: rgb(132, 179, 182);
   position: relative;
   float: left;
-  border-radius: 10px 0px 0px 10px;
+  /* border-radius: 10px 0px 0px 10px; */
   -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   box-shadow: 19px 10px 10px -5px rgba(0, 0, 0, 0.21);
@@ -83,7 +83,7 @@ a {
   background-color: rgb(236, 205, 67);
   position: relative;
   float: left;
-  border-radius: 0px 10px 10px 0px;
+  /* border-radius: 0px 10px 10px 0px; */
   -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
@@ -98,7 +98,7 @@ a {
   color: black;
   font-family: "Poppins", sans-serif;
   font-size: 2.813em;
-  padding-top: 15%;
+  padding-top: 10%;
   padding-right: 15px;
 }
 
@@ -111,8 +111,9 @@ a {
 /* ---------------- About me ---------------- */
 
 #about-container {
-  width: 60vw;
+  width: 70vw;
   margin: auto;
+  margin-bottom: 2em;
   padding: 1.25em 0em 3.125em;
 }
 
@@ -153,9 +154,19 @@ a {
 /* ---------------- Skills ---------------- */
 
 #skills-container {
-  width: 60%;
+  width: 70vw;
   padding: 1.25em 0em 3.125em;
+  margin-bottom: 2em;
   margin: auto;
+}
+
+.skill-container {
+  margin: 0.8em 0 0.5em;
+  padding: 1em;
+}
+
+.skill-name {
+  margin-bottom: 0.5em;
 }
 
 #skills-section {
@@ -216,6 +227,7 @@ a {
 #work-container {
   width: 70%;
   padding: 1.25em 0em 3.125em;
+  margin-bottom: 2em;
   margin: auto;
 }
 
@@ -242,6 +254,7 @@ a {
 #contact-container {
   width: 40%;
   margin: auto;
+  margin-bottom: 2em;
   padding: 1.25em 0em 3.125em;
 }
 
@@ -282,7 +295,7 @@ a {
   background-color: whitesmoke;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.563em;
-  z-index: -2;
+  z-index: 2;
 }
 
 #social-container {
@@ -345,26 +358,21 @@ a {
   }
 
   #home-container {
-    padding-top: 10%;
+    padding-top: 35%;
     width: 90vw;
-    height: 50vw;
-    margin: auto;
+    height: 30vw;
+    margin: 0 auto;
     text-align: center;
   }
 
   #bg-container {
     margin: 0 auto;
     width: 90vw;
-    height: 50vw;
+    height: 30vw;
     background-color: whitesmoke;
     position: absolute;
     z-index: -1;
     display: flex;  
-  }
-
-  #home-container {
-    margin: 0 auto;
-    padding-top: 35%;
   }
 
   #greeting {

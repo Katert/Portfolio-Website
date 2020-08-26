@@ -10,13 +10,13 @@ class Home extends Component {
             id="bg-1"
             initial={{ y: 2000, opacity: -5 }}
             animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 4 }}
+            transition={{ duration: 3.5 }}
           ></motion.div>
           <motion.div
             id="bg-2"
             initial={{ x: 2000, opacity: -5 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 5 }}
+            transition={{ duration: 4.5 }}
           ></motion.div>
         </div>
         <div id="greeting-container">
@@ -35,7 +35,7 @@ class Home extends Component {
         <motion.div
           initial={{ x: 100, opacity: -5 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 4, duration: 1 }}
+          transition={{ delay: 3.5, duration: 1 }}
         >
           <span id="greeting-intro">
             I'm a{" "}
@@ -46,18 +46,18 @@ class Home extends Component {
           </span>
         </motion.div>
         </div>
-        <motion.div
+        {/* <motion.div
           id="arrow-down-container"
           initial={{ y: 322, opacity: 0 }}
           animate={{ y: 330, opacity: 0.7 }}
           transition={{ yoyo: Infinity, duration: 0.8, delay: 4.5 }}
         >
-          {/* <img
+          <img
             id="arrow-down"
             src={require("../img/scroll-down-icon-png-28.png")}
             alt="arrow-down"
-          ></img> */}
-        </motion.div>
+          ></img>
+        </motion.div> */}
       </div>
     );
   }
