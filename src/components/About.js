@@ -26,7 +26,7 @@ class About extends Component {
             transition={{ delay: 0.8, duration: 1 }}
           >
             <img
-              src={require("../img/profile.jpg")}
+              src={require("../img/profile.jpeg")}
               alt="selfie"
               style={{ borderRadius: 200 }}
             />
@@ -50,7 +50,7 @@ class About extends Component {
               only did I got to program and learn a lot of new techniques, but I
               also focused on improving my softskills a lot too.
               <br /><br />
-              I'm experienced in HTML, CSS and JavaScript and develop a lot with React.js whereas this portfolio website is also created with React.js. 
+              I'm experienced in HTML, CSS and JavaScript and develop a lot with React.js with which I've created this portfolio website also with. 
               I also have experience in programming with Java and have basic knowledge of SQL and data modelling with MySQL Workbench. For a complete overview of my skill-levels, please take a look at the 'skills'-section.
               <br />I speak fluently <span className="highlight">Dutch</span>,
               and have excellent skills in both writing and speaking{" "}
