@@ -23,22 +23,22 @@
     {
       "name": "React.js",
       "progress": "65",
-      "animateDuration": 2.6
+      "animateDuration": 2.4
     },
     {
       "name": "Java",
       "progress": "65",
-      "animateDuration": 2.7
+      "animateDuration": 2.5
     },
     {
       "name": "Node.js",
       "progress": "20",
-      "animateDuration": 2.4
+      "animateDuration": 2.6
     },
     {
       "name": "Express",
       "progress": "20",
-      "animateDuration": 2.5
+      "animateDuration": 2.7
     },
     {
       "name": "SQL",
