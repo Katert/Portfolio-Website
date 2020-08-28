@@ -27,9 +27,13 @@ class Home extends Component {
           transition={{ delay: 1, duration: 1.5 }}
         >
           Hi, my name is{" "}
-          <span style={{ color: "whitesmoke", textDecoration: "underline" }}>
+          <motion.span 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 4.1, duration: 0.2 }}
+          style={{ color: "whitesmoke", textDecoration: "underline" }}>
             Wesley Kater
-          </span>
+          </motion.span>
           .
         </motion.div>
         <motion.div
