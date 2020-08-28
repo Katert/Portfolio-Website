@@ -73,14 +73,14 @@ class ContactForm extends Component {
           id="notification-contactform"
           initial={{ opacity: -10 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.3 }}
         >
           <p>
             The contact form below is temporarily not working because of an
             issue with the SMTP service provider.
             <br />
             <br />
-            Feel free to use the 'Contact me'-button below as an alternative until the
+            Feel free to use the 'Contact me'-button below until the
             issue has been resolved. Thanks!
             <br />
             <br />

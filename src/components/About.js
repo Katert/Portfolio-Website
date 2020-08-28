@@ -39,28 +39,45 @@ class About extends Component {
             transition={{ delay: 0.8, duration: 1 }}
           >
             <p>
-              I'm a <span className="highlight"> junior full-stack web developer</span>{" "}
-              with a passion for designing and building user-friendly and responsive web applications and websites.
+              Hi, my name is <span className="highlight">Wesley</span>.
+              <br/>
+              <br/>
+              I'm from The Netherlands and I'm a{" "}
+              <span className="highlight">
+                {" "}
+                junior full-stack web developer
+              </span>{" "}
+              with a desire for designing and building user-friendly and
+              responsive web applications and websites.
               <br /> In addition to programming as a hobby, I signed up for and
               graduated from the intensive on-site full-stack developer bootcamp
               organized by{" "}
               <span className="highlight">Code For All_The Netherlands</span>,
               the Dutch branch from the succesful Portuguese organization{" "}
-              <span className="highlight">Academia de Codigo</span>.<br /> Not
-              only did I got to program and learn a lot of new techniques, but I
-              also focused on improving my softskills a lot too.
-              <br /><br />
-              I'm experienced in HTML, CSS and JavaScript and develop a lot with React.js with which I've created this portfolio website also with. 
-              I also have experience in programming with Java and have basic knowledge of SQL and data modelling with MySQL Workbench. For a complete overview of my skill-levels, please take a look at the 'skills'-section.
-              <br />I speak fluently <span className="highlight">Dutch</span>,
-              and have excellent skills in both writing and speaking{" "}
-              <span className="highlight">English</span>.
+              <span className="highlight">Academia de Codigo</span>.
               <br />
-              If there's anything else you would like to know or if you would like to reach out to me, please use the contact
-              form by clicking on 'contact' in the navigation bar up top.
-              <br /> <br />
+              <br />
+              During the bootcamp, I've focused a lot on back-end programming
+              with <span className="highlight">Java</span> and front-end programming with <span className="highlight">HTML, CSS and JavaScript</span>,
+              while also learning <span className="highlight">React</span> which I love developing with.
+              <br />
+              At the end of the bootcamp, I discovered that web development is
+              really what makes me enthusiastic. I'm also very interested in learning about best
+              practices regarding UI and UX-design, as I believe these are
+              essential skills to have when designing applications and websites
+              tailored to the needs of a client.
+              <br />
+              <br />
+              Furthermore, I speak fluently{" "}
+              <span className="highlight">Dutch</span> and have excellent skills
+              in both writing and speaking{" "}
+              <span className="highlight">English</span>. I'm a helpful guy and a
+              critical thinker, and I believe in the power of teamwork to develop amazing things.
+              <br />
+              <br />
               <span className="highlight">
-              At the moment, I'm available for any junior full-stack or front-end developer position.
+                At the moment, I'm available for any junior full-stack
+                or front-end developer job opportunities. 
               </span>
             </p>
           </motion.div>

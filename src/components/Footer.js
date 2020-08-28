@@ -11,7 +11,7 @@ class Footer extends Component {
         transition={{ duration: 1.5 }}
       >
         <div id="options-container">
-
+          {/* <a id="lang-select" style={{color: "black", fontSize: 15}}>nl | eng</a> */}
         </div>
         <div id="social-container">
           <a

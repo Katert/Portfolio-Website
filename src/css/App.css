@@ -70,10 +70,10 @@ a {
 #bg-1 {
   width: 50%;
   height: 100%;
-  background-color: rgb(132, 179, 182);
+  background-color: #3a608b;
   position: relative;
   float: left;
-  /* border-radius: 10px 0px 0px 10px; */
+  border-radius: 10px 0px 0px 10px;
   -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   box-shadow: 19px 10px 10px -5px rgba(0, 0, 0, 0.21);
@@ -82,10 +82,10 @@ a {
 #bg-2 {
   width: 50%;
   height: 100%;
-  background-color: rgb(236, 205, 67);
+  background-color: rgb(224, 163, 92);
   position: relative;
   float: left;
-  /* border-radius: 0px 10px 10px 0px; */
+  border-radius: 0px 10px 10px 0px;
   -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
@@ -128,7 +128,9 @@ a {
 #about-section {
   padding: 1.875em;
   text-align: left;
-  background-color: rgb(132, 179, 182);
+  /* background-color: rgb(132, 179, 182); */
+  /* background-color: #276CDA; */
+  background-color: #3a608b;
   border-radius: 0.625em;
   -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
@@ -176,7 +178,7 @@ a {
   padding: 1.875em;
   margin: auto;
   text-align: left;
-  background-color: rgb(240, 212, 90);
+  background-color: rgb(224, 163, 92);
   border-radius: 0.625em;
   text-align: left;
   font-family: "Josefin Sans", sans-serif;
@@ -239,7 +241,9 @@ a {
   padding: 1.875em;
   margin: auto;
   text-align: left;
-  background-color: rgb(132, 179, 182);
+  /* background-color: rgb(132, 179, 182); */
+  /* background-color: #276CDA; */
+  background-color: #3a608b;
   border-radius: 0.625em;
   text-align: left;
   font-family: "Josefin Sans", sans-serif;
@@ -280,7 +284,7 @@ a {
   padding: 1.875em;
   margin: auto;
   text-align: left;
-  background-color: rgb(240, 212, 90);
+  background-color: rgb(224, 163, 92);
   border-radius: 0.625em;
   text-align: left;
   font-family: "Josefin Sans", sans-serif;
@@ -301,13 +305,24 @@ a {
 
 #footer-container {
   width: 100%;
-  height: 2em;
+  height: 1.8em;
   position: fixed;
   bottom: 0;
   background-color: white;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.563em;
   z-index: 2;
+}
+
+#options-container {
+  left: 0.5em;
+  top: 0.3em;
+  position: absolute;
+  display: none;
+}
+
+#lang-select {
+  transition: 0.3s;
 }
 
 #social-container {
@@ -331,8 +346,8 @@ a {
 
 .fa-linkedin:hover,
 .fa-github-square:hover,
-.fa-facebook-square:hover {
-  color: rgb(238, 192, 40);
+.fa-facebook-square:hover, #lang-select:hover {
+  color: #276CDA;
 }
 
 /* ---------------- Misc ---------------- */

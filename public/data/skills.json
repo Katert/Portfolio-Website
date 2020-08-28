@@ -2,12 +2,12 @@
   "skills": [
     {
       "name": "HTML",
-      "progress": "75",
+      "progress": "65",
       "animateDuration": 2
     },
     {
       "name": "CSS",
-      "progress": "60",
+      "progress": "50",
       "animateDuration": 2.1
     },
     {
@@ -21,27 +21,27 @@
       "animateDuration": 2.3
     },
     {
-      "name": "Node.js",
-      "progress": "20",
-      "animateDuration": 2.4
-    },
-    {
-      "name": "Express",
-      "progress": "20",
-      "animateDuration": 2.5
-    },
-    {
       "name": "React.js",
-      "progress": "60",
-      "animateDuration": 2.6
+      "progress": "65",
+      "animateDuration": 2.4
     },
     {
       "name": "Java",
       "progress": "65",
+      "animateDuration": 2.5
+    },
+    {
+      "name": "Node.js",
+      "progress": "20",
+      "animateDuration": 2.6
+    },
+    {
+      "name": "Express",
+      "progress": "20",
       "animateDuration": 2.7
     },
     {
-      "name": "MySQL",
+      "name": "SQL",
       "progress": "30",
       "animateDuration": 2.8
     }
