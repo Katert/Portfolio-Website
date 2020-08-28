@@ -12,19 +12,19 @@ class ContactForm extends Component {
     company: "",
     message: "",
     sent: false,
-    buttonText: "Submit",
-    buttonDisabled: true,
+    buttonText: "Send message",
+    buttonDisabled: false,
   };
 
   resetForm = () => {
     this.setState({
-      fname: "",
-      lname: "",
-      email: "",
-      subject: "",
+      fname: " ",
+      lname: " ",
+      email: " ",
+      subject: " ",
       phone: null,
-      company: "",
-      message: "",
+      company: " ",
+      message: " ",
       buttonText: "Message sent!",
       buttonDisabled: true,
     });
@@ -33,7 +33,7 @@ class ContactForm extends Component {
   formSubmit = (e) => {
     e.preventDefault();
 
-    this.setState({ buttonText: "...Sending message", buttonDisabled: true });
+    this.setState({ buttonText: "Sending...", buttonDisabled: true });
 
     let formData = {
       fname: this.state.fname,
@@ -60,38 +60,15 @@ class ContactForm extends Component {
         this.resetForm();
       })
       .catch(() => {
+        alert("There was a problem with sending your message.")
         Error("Message could not be sent!");
-        this.setState({ buttonDisabled: false });
+        this.setState({ buttonDisabled: false, buttonText: 'Send message' });
       });
   };
 
   render() {
     return (
       <div id="contact-container">
-        <motion.div
-          className="notification is-black"
-          id="notification-contactform"
-          initial={{ opacity: -10 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.3 }}
-        >
-          <p>
-            The contact form below is temporarily not working because of an
-            issue with the SMTP service provider.
-            <br />
-            <br />
-            Feel free to use the 'Contact me'-button below until the
-            issue has been resolved. Thanks!
-            <br />
-            <br />
-          </p>
-          <a
-            href="mailto:wesley.kater@icloud.com?subject=Hi Wesley!"
-            className="button is-link"
-          >
-            Contact me
-          </a>
-        </motion.div>
         <motion.h1
           id="contact-title"
           initial={{ x: -100, opacity: -10 }}

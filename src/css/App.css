@@ -40,7 +40,7 @@ a {
 }
 
 .header-link:hover {
-  color: rgb(238, 192, 40);
+  color: rgb(92, 228, 137);
 }
 
 .highlight {
@@ -50,10 +50,9 @@ a {
 /* ---------------- Home ---------------- */
 
 #home-container {
-  padding-top: 10%;
   width: 60%;
   height: auto;
-  margin: auto;
+  margin: 10em auto;
   text-align: center;
 }
 
@@ -65,10 +64,11 @@ a {
   position: absolute;
   z-index: -1;
   display: flex;
+  
 }
 
 #bg-1 {
-  width: 50%;
+  width: 50.5%;
   height: 100%;
   background-color: #3a608b;
   position: relative;
@@ -80,7 +80,7 @@ a {
 }
 
 #bg-2 {
-  width: 50%;
+  width: 49.5%;
   height: 100%;
   background-color: rgb(224, 163, 92);
   position: relative;
@@ -259,13 +259,6 @@ a {
 
 /* ---------------- Contact form ---------------- */
 
-#notification-contactform {
-  font-family: "Josefin Sans", sans-serif;
-  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
-  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
-  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
-}
-
 #contact-container {
   width: 40vw;
   margin: auto;
@@ -347,10 +340,19 @@ a {
 .fa-linkedin:hover,
 .fa-github-square:hover,
 .fa-facebook-square:hover, #lang-select:hover {
-  color: #276CDA;
+  color: rgb(92, 228, 137);
 }
 
 /* ---------------- Misc ---------------- */
+
+.notify {
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+  width: 30%;
+  margin: 0 auto;
+}
 
 .spacer {
   width: 100%;
@@ -386,17 +388,21 @@ a {
   }
 
   #home-container {
-    padding-top: 0%;
     width: 90vw;
-    height: 40vw;
+    height: 35vw;
     margin: 12em auto;
     text-align: center;
+    
+  }
+
+  .notify {
+    width: 15em;
   }
 
   #bg-container {
     margin: 0 auto;
     width: 90vw;
-    height: 40vw;
+    height: 35vw;
     background-color: whitesmoke;
     position: absolute;
     z-index: -1;
@@ -405,11 +411,10 @@ a {
   #greeting {
     font-size: 1.2em;
     padding: 8% 8% 3% 8%;
-    
   }
 
   #greeting-container {
-    padding-top: 0.3em;
+    padding-top: 0.2em;
   }
 
   #greeting-intro {

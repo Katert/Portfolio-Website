@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { HashRouter, Route } from "react-router-dom";
 import axios from "axios";
 
-import Header from "../components/Header";
-import Home from "../components/Home";
-import About from "../components/About";
-import Skills from "../components/Skills";
-import Work from "../components/Work";
-import ContactForm from "../components/ContactForm";
-import Footer from "../components/Footer";
+import Header from "../components/Header.jsx";
+import Home from "../components/Home.jsx";
+import About from "../components/About.jsx";
+import Skills from "../components/Skills.jsx";
+import Work from "../components/Work.jsx";
+import ContactForm from "../components/ContactForm.jsx";
+import Footer from "../components/Footer.jsx";
 
 import "../css/App.css";
 

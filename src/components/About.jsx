@@ -68,7 +68,7 @@ class About extends Component {
               tailored to the needs of a client.
               <br />
               <br />
-              Furthermore, I speak fluently{" "}
+              I speak fluently{" "}
               <span className="highlight">Dutch</span> and have excellent skills
               in both writing and speaking{" "}
               <span className="highlight">English</span>. I'm a helpful guy and a
