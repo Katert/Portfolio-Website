@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.9ef8540d.chunk.css",
+    "main.css": "/portfolio-website/static/css/main.bb9e7495.chunk.css",
     "main.js": "/portfolio-website/static/js/main.d659889f.chunk.js",
     "main.js.map": "/portfolio-website/static/js/main.d659889f.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.8cd05721.js",
@@ -8,9 +8,9 @@
     "static/js/2.1c462596.chunk.js": "/portfolio-website/static/js/2.1c462596.chunk.js",
     "static/js/2.1c462596.chunk.js.map": "/portfolio-website/static/js/2.1c462596.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.82e946583b53eb9d021007ecbc33fbd1.js": "/portfolio-website/precache-manifest.82e946583b53eb9d021007ecbc33fbd1.js",
+    "precache-manifest.606cfac058ee0c46b5569951ad4fc75f.js": "/portfolio-website/precache-manifest.606cfac058ee0c46b5569951ad4fc75f.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
-    "static/css/main.9ef8540d.chunk.css.map": "/portfolio-website/static/css/main.9ef8540d.chunk.css.map",
+    "static/css/main.bb9e7495.chunk.css.map": "/portfolio-website/static/css/main.bb9e7495.chunk.css.map",
     "static/js/2.1c462596.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.1c462596.chunk.js.LICENSE.txt",
     "static/media/covid-19-thumb.png": "/portfolio-website/static/media/covid-19-thumb.81595068.png",
     "static/media/profile.jpeg": "/portfolio-website/static/media/profile.8bd7fa66.jpeg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.8cd05721.js",
     "static/js/2.1c462596.chunk.js",
-    "static/css/main.9ef8540d.chunk.css",
+    "static/css/main.bb9e7495.chunk.css",
     "static/js/main.d659889f.chunk.js"
   ]
 }
