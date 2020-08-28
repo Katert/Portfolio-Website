@@ -10,6 +10,9 @@ class Footer extends Component {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.5 }}
       >
+        <div id="options-container">
+
+        </div>
         <div id="social-container">
           <a
             target="_blank"

@@ -21,21 +21,21 @@ a {
 /* ---------------- Header ---------------- */
 
 .header-container {
-  border-color: black;
-  border-bottom: 1.5px solid;
+  /* border-color: black;
+  border-bottom: 1.5px solid; */
   padding: 1em 0em 1em 1em;
   width: 100vw;
   min-width: 100%;
   position: sticky;
   top: 0;
-  background-color: rgb(245, 245, 245);
+  background-color: white;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   z-index: 1;
 }
 
 .header-link {
-  color: black;
+  color: rgb(0, 0, 0);
   transition: 0.2s;
 }
 
@@ -51,7 +51,7 @@ a {
 
 #home-container {
   padding-top: 10%;
-  width: 50%;
+  width: 60%;
   height: auto;
   margin: auto;
   text-align: center;
@@ -59,7 +59,7 @@ a {
 
 #bg-container {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   height: 40%;
   background-color: whitesmoke;
   position: absolute;
@@ -92,6 +92,7 @@ a {
 }
 
 #greeting-container {
+  padding-top: 7vw;
   margin: 0 auto;
 }
 
@@ -99,9 +100,7 @@ a {
 #greeting {
   color: black;
   font-family: "Poppins", sans-serif;
-  font-size: 2.813em;
-  padding-top: 10%;
-  padding-right: 15px;
+  font-size: 2.513em;
 }
 
 #greeting-intro {
@@ -116,7 +115,7 @@ a {
   width: 50vw;
   margin: auto;
   margin-bottom: 2em;
-  margin-top: 1em;
+  margin-top: 0.5em;
   padding: 1.25em 0em 3.125em;
 }
 
@@ -160,6 +159,7 @@ a {
   width: 40vw;  
   margin: auto;
   margin-bottom: 2em;
+  margin-top: 0.5em;
   padding: 1.25em 0em 3.125em;
 }
 
@@ -232,7 +232,7 @@ a {
   padding: 1.25em 0em 3.125em;
   margin: auto;
   margin-bottom: 2em;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 #work-section {
@@ -255,10 +255,18 @@ a {
 
 /* ---------------- Contact form ---------------- */
 
+#notification-contactform {
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+}
+
 #contact-container {
   width: 40vw;
   margin: auto;
   margin-bottom: 2em;
+  margin-top: 0.5em;
   padding: 1.25em 0em 3.125em;
 }
 
@@ -292,13 +300,11 @@ a {
 /* ---------------- Footer ---------------- */
 
 #footer-container {
-  /* border-color: black;
-  border-top: 1.5px solid; */
   width: 100%;
   height: 2em;
   position: fixed;
   bottom: 0;
-  background-color: whitesmoke;
+  background-color: white;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.563em;
   z-index: 2;
@@ -352,7 +358,7 @@ a {
 @media (max-width: 1057px) {
   
   .header-container {
-    background-color: whitesmoke;
+    background-color: white;
     padding-right: 1em;
   }
 
@@ -361,35 +367,34 @@ a {
   }
 
    a + a {
-    margin-left: 1.2em;
+    margin-left: 1.5em;
   }
 
   #home-container {
-    padding-top: 35%;
+    padding-top: 0%;
     width: 90vw;
-    height: 30vw;
-    margin: 0 auto;
+    height: 40vw;
+    margin: 12em auto;
     text-align: center;
   }
 
   #bg-container {
     margin: 0 auto;
     width: 90vw;
-    height: 30vw;
+    height: 40vw;
     background-color: whitesmoke;
     position: absolute;
     z-index: -1;
-    display: flex;  
   }
 
   #greeting {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 8% 8% 3% 8%;
     
   }
 
   #greeting-container {
-    padding-top: 0.5em;
+    padding-top: 0.3em;
   }
 
   #greeting-intro {

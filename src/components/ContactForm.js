@@ -13,7 +13,7 @@ class ContactForm extends Component {
     message: "",
     sent: false,
     buttonText: "Submit",
-    buttonDisabled: false,
+    buttonDisabled: true,
   };
 
   resetForm = () => {
@@ -26,14 +26,14 @@ class ContactForm extends Component {
       company: "",
       message: "",
       buttonText: "Message sent!",
-      buttonDisabled: true
+      buttonDisabled: true,
     });
   };
 
   formSubmit = (e) => {
     e.preventDefault();
 
-    this.setState({ buttonText: "...Sending message" });
+    this.setState({ buttonText: "...Sending message", buttonDisabled: true });
 
     let formData = {
       fname: this.state.fname,
@@ -45,7 +45,10 @@ class ContactForm extends Component {
       message: this.state.message,
     };
 
-    Axios.post("https://portfolio-contactform-api.herokuapp.com/api/v1", formData)
+    Axios.post(
+      "https://portfolio-contactform-api.herokuapp.com/api/v1",
+      formData
+    )
       .then((res) => {
         if (res.data.success) {
           this.setState({ sent: true, buttonDisabled: true });
@@ -65,6 +68,30 @@ class ContactForm extends Component {
   render() {
     return (
       <div id="contact-container">
+        <motion.div
+          className="notification is-black"
+          id="notification-contactform"
+          initial={{ opacity: -10 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <p>
+            The contact form below is temporarily not working because of an
+            issue with the SMTP service provider.
+            <br />
+            <br />
+            Feel free to use the 'Contact me'-button below as an alternative until the
+            issue has been resolved. Thanks!
+            <br />
+            <br />
+          </p>
+          <a
+            href="mailto:wesley.kater@icloud.com?subject=Hi Wesley!"
+            className="button is-link"
+          >
+            Contact me
+          </a>
+        </motion.div>
         <motion.h1
           id="contact-title"
           initial={{ x: -100, opacity: -10 }}
