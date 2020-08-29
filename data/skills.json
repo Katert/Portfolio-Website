@@ -44,6 +44,11 @@
       "name": "SQL",
       "progress": "30",
       "animateDuration": 2.8
+    },
+    {
+      "name": "Git",
+      "progress": "50",
+      "animateDuration": 2.9
     }
   ]
 }
