@@ -41,6 +41,11 @@
       "animateDuration": 2.7
     },
     {
+      "name": "MongoDB",
+      "progress": "25",
+      "animateDuration": 2.8
+    },
+    {
       "name": "SQL",
       "progress": "30",
       "animateDuration": 2.8
