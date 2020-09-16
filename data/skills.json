@@ -7,7 +7,7 @@
     },
     {
       "name": "CSS",
-      "progress": "50",
+      "progress": "70",
       "animateDuration": 2.1
     },
     {
@@ -30,6 +30,11 @@
       "progress": "65",
       "animateDuration": 2.5
     },
+        {
+      "name": "Spring Framework",
+      "progress": "50",
+      "animateDuration": 2.5
+    },
     {
       "name": "Node.js",
       "progress": "20",
@@ -41,8 +46,8 @@
       "animateDuration": 2.7
     },
     {
-      "name": "MongoDB",
-      "progress": "25",
+      "name": "MySQL",
+      "progress": "40",
       "animateDuration": 2.8
     },
     {
@@ -53,6 +58,11 @@
     {
       "name": "Git",
       "progress": "50",
+      "animateDuration": 2.9
+    },
+    {
+      "name": "Scrum",
+      "progress": "100",
       "animateDuration": 2.9
     }
   ]
